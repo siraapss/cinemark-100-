@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* CSS Document */
+body {background-color: #F8F6F0; font-family: 'Roboto', sans-serif;}
+.navbar {background-color: #E9E6Dd}
+.navbar-nav .nav-item:hover .nav-link {color: #F8F6F0;}
+.my-custom-button {background-color: #c42227;border: none}
+.my-custom-button1 {background-color: #c42227;border: none}
+.btn:hover img {transform: scale(1.1);transition: transform 0.3s ease;}
+footer {background-color: #E9E6Dd; margin-top: 50px}
+.columnafooter a{text-decoration: none; color:black}
+.columnafooter a:hover {text-decoration: underline}
+.card-body {background-color:#F8F6F0;border-color: black; margin-top: 20px}
+.descripcion1 p {color: black}
+.btn {border: none}
+@media (max-width: 768px) {.hidden-mobile {display: none !important;}}
+.carousel-control-prev {background-color:#F8F6F0; width: 50px;height:50px; margin-top: 120px}
+.carousel-control-next {background-color: #F8F6F0; width: 50px;height:50px; margin-top: 120px}
+.card-text {color: white; text-align: center}
+.card-body {background-color:#c42227;margin-top: 0}
+.card:hover {border-color:#DFBE16 }
+.btn-candy:hover img {transform: scale(1.1);transition: transform 0.3s ease;}
+.card-body-2 {background-color:black;margin-top: 0;padding-top: 15px;padding-bottom: 15px}
+.card-body-3 {background-color:#CDB54F;margin-top: 0;padding-top: 15px;padding-bottom: 15px}
+.card-body {text-align: center; color: white}
+.miboton1 {background-color: #c42227; margin-top: 15px; color: white}
+.miboton1:hover {background-color: #DFBE16;color: white }
+.form-group {margin-top: 10px}
+.miboton2 {background-color: #F8F6F0; margin-top: 15px;}
+.miboton2:hover {text-decoration: underline}
+.mitarjeta img {width:400px; height: auto;margin-top: 50px;margin-bottom: 90px;border-radius: 30px}
+.card-datos {background-color:#F8F6F0; color: black; border-radius: 10px}
+.mi-card {border-color: black; margin-top: 10px;border-radius: 10px;}
+.mi-card:hover {border-color:#c42227 }
+.miboton3 {width: 30%; background-color: #c42227; margin-top: 30px;margin-bottom: 120px; color: white}
+.miboton3:hover {background-color: #DFBE16;color: white }
+.miboton4 {width: 30%; background-color:black; color: white;margin-bottom: 10px}
+.miboton4:hover {background-color: #c42227;color: white }
+.miboton5 {width: 30%; background-color:#C4A834;color: white;margin-bottom: 10px}
+.miboton5:hover {background-color: #c42227;color: white }
+.mis-textos {justify-content: center; text-align: center}
+.miboton6 {background-color: none;border-color: none }
+.miboton6:hover img {transform:none}
+.mi-cardbody {background-color: #c42227;border:thick}
+.mi-cardbody2 {background-color:#c42227;border: none;font-size: 12px}
+.col {justify-content: center;display: flex}
+.col-md-4 {justify-content: center;display: flex}
+.form-container1 {
+  width: 320px;
+  border-radius: 0.75rem;
+  background-color: #c42227;
+  padding: 2rem;
+  color: rgba(243, 244, 246, 1);
+	justify-content: center;
+margin-left: 38%;
+margin-top: 5%;
+margin-bottom: 5%}
+.title1 {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;}
+.form1 {
+  margin-top: 1.5rem;}
+.input-group1 {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;}
+.input-group1 label {
+  display: block;
+  color: #F8F6F0;
+  margin-bottom: 4px;}
+.input-group1 input {
+  width: 100%;
+  border-radius: 0.375rem;
+  border: #1D1830;
+  outline: 0;
+background-color: #F8F6F0;
+  padding: 0.75rem 1rem;
+  color: #D9D9D9;}
+.input-group1 input:focus {
+  border-color: rgba(167, 139, 250);}
+.forgot1 {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #D9D9D9;
+  margin: 8px 0 14px 0;}
+.forgot1 a,.signup1 a {
+  color:#D9D9D9;
+  text-decoration: none;
+  font-size: 14px;}
+.forgot1 a:hover, .signup1 a:hover {
+  text-decoration: underline rgba(167, 139, 250, 1);}
+.sign1 {
+  display: block;
+  width: 100%;
+  background: linear-gradient(to right,  black, black);
+  padding: 0.75rem;
+	margin-top: 10px;
+  text-align: center;
+  color: #D9D9D9;
+  border: none;
+  border-radius: 0.375rem;
+  font-weight: 600;}
+.sign1 a {text-decoration: none;
+color: #D9D9D9}
+.sign1:hover {background-color: #DFBE16;color: white }
+.line1 {
+  height: 1px;
+  flex: 1 1 0%;
+  background-color: rgba(55, 65, 81, 1);}
+.signup1 {
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgba(156, 163, 175, 1);}
+
+.mides1 {width: 550px}
+
+.radio-button {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  position: relative;
+  align-items: center;
+  color: black;
+}
+
+.radio-button input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+.radio {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 20%;
+  border: 2px solid #c42227;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  transform: translateZ(-25px);
+  transition: all 0.3s ease-in-out;
+}
+
+.radio::before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  top: 5px;
+  left: 5px;
+  border-radius: 02%;
+  background-color: #c42227;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.radio-button input[type="radio"]:checked + .radio {
+  border-color: #c42227;
+  transform: translateZ(0px);
+  background-color: #fff;
+}
+
+.radio-button input[type="radio"]:checked + .radio::before {
+  opacity: 1;
+}
+
+.fechas {justify-content: left; margin-bottom: 20px;}
+.horarios {display: block;}
+.entradas {margin-top: 30px}
+.entradas p {color:#F8F6F0;background-color: #c42227;padding-left: 10px;padding-top: 10px;padding-bottom: 10px; border-radius: 10px }
+
+.comprar {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #c42227;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #c42227;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #c42227;
+	margin-top: 60px
+}
+
+.comprar:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #c42227;
+}
+
+.comprar:active {
+  transform: scale(0.9);
+}
+
+
